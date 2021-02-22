@@ -1,144 +1,148 @@
 * {
-    font-family: Josefin Sans;
+  font-family: Josefin Sans;
 }
 
 body {
-    background-color: rgb(56, 102, 65);
+  background-color: rgb(56, 102, 65);
 }
 
 h1 {
-    font-size: 3em;;
-    color: goldenrod;
-    text-shadow: 2px 2px rgb(107, 81, 15);
-    text-align: center;
-    font-family: Playfair Display;
+  font-size: 3em;
+  color: goldenrod;
+  text-shadow: 2px 2px rgb(107, 81, 15);
+  text-align: center;
+  font-family: Playfair Display;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
-td, th {
-    width: 150px;
-    border: 1px solid #4c4c4c;
-    padding: .5em;
+td,
+th {
+  width: 150px;
+  border: 1px solid #4c4c4c;
+  padding: 0.5em;
 }
 
 tr {
-    color: #4c4c4c;
-    background-color: #f2e8cf;
+  color: #4c4c4c;
+  background-color: #f2e8cf;
 }
 
 th {
-    font-weight: 400;
-    font-size: 1em;
-    color: white;
-    background-color: #6a994e;
+  font-weight: 400;
+  font-size: 1em;
+  color: white;
+  background-color: #6a994e;
 }
 
 .expense-input {
-    background-color: #6a994e;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 2px 2px rgb(37, 68, 43);
-    border: 1px solid #4c4c4c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #6a994e;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(37, 68, 43);
+  border: 1px solid #4c4c4c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
 }
 
 .expense-table {
-    display: flex;
+  display: flex;
+  margin-left: 7%;
 }
 
-#input {
-    border: none;
-    box-shadow: none;
+#form {
+  border: none;
+  box-shadow: none;
+  width: 90%;
 }
 
 form input {
-    height: 25px;
-    border: 1px solid rgba(56, 102, 65, 0.747);
-    border-radius: 5px;
-    box-sizing: border-box;
+  height: 25px;
+  border: 1px solid rgba(56, 102, 65, 0.747);
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 label {
-    color: white;
+  color: white;
 }
 
 #amount {
-    margin: 0 0 10px 0;
-    background-color: #f2e8cf;
+  margin: 0 0 10px 0;
+  background-color: #f2e8cf;
 }
 
 #store-name {
-    margin: 0 0 10px 0;
-    background-color: #f2e8cf;
+  margin: 0 0 10px 0;
+  background-color: #f2e8cf;
 }
 
 #date {
-    margin: 0 0 10px 0;
-    background-color: #f2e8cf;
+  margin: 0 0 10px 0;
+  background-color: #f2e8cf;
 }
 
 #description {
-    margin: 0 0 10px 0;
-    background-color: #f2e8cf;
+  margin: 0 0 8px 0;
+  background-color: #f2e8cf;
 }
 
-@media(max-width: 979px) {
-    .expense-table {
-        margin: 20px 0;
-    }
-    .expense-input {
-        margin: 0 auto;
-    }
+@media (max-width: 979px) {
+  .expense-table {
+    margin: 20px 0;
+  }
+  .expense-input {
+    margin: 0 auto;
+  }
 }
 
 label {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 #submit-button {
-    width: 100px;
-    height: 35px;
-    color: white;
-    background-color: #a7c957;
-    border: 1px solid rgba(56, 102, 65, 0.747);
-    transition: .25s;
-    font-weight: 700;
+  width: 100px;
+  height: 35px;
+  color: white;
+  background-color: #a7c957;
+  border: 1px solid rgba(56, 102, 65, 0.747);
+  transition: 0.25s;
+  font-weight: 700;
+  text-shadow: 1px 1px #000;
 }
 
 #submit-button:hover {
-    box-shadow: 2px 2px rgb(56, 102, 65);
+  box-shadow: 2px 2px rgb(56, 102, 65);
 }
 
 .delete-button {
-    height: 20px;
-    width: 20px;
-    margin: 5px;
-    color: #f2e8cf;
-    background-color: #bc4749;
-    border: none;
-    border-radius: 100%;
-    transition: .25s;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  color: #f2e8cf;
+  background-color: #bc4749;
+  border: none;
+  border-radius: 100%;
+  transition: 0.25s;
 }
 
 .delete-button:hover {
-    background-color: red;
-    box-shadow: 1px 1px rgb(116, 0, 0);
+  background-color: red;
+  box-shadow: 1px 1px rgb(116, 0, 0);
 }
 
 .delete-button-cell {
-    width: 30px;
-    background-color: #386641;
-    border: none;
+  width: 30px;
+  background-color: #386641;
+  border: none;
 }
